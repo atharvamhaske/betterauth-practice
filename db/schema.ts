@@ -65,4 +65,6 @@ import {
       () => /* @__PURE__ */ new Date(),
     ),
   });
+
+  export const schema = { user, session, account, verification }
   
